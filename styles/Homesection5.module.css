@@ -1,0 +1,18 @@
+.section5outermost {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section5outermost h1 {
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+@media (max-width: 450px) {
+    .section5outermost {
+        flex-direction: column;
+    }
+}
