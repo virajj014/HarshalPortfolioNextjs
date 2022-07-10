@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import styles from '../styles/Homesection2_5.module.css'
 
 const Homesection2_5 = () => {
