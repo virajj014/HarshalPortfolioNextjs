@@ -32,7 +32,16 @@ const projects = () => {
                 <Card1_left cimg={projectimg1} cname="Ecommerce Website" cdescription="I Built an Ecommerce Platform using MERN,It has all the functionalities like amazon" cvisit="/https://www.amazon.in/" ccode="https://www.amazon.in/" />
 
                 <Card2_right cimg={projectimg2} cname="Movie Streaming Platform" cdescription="I Built a Movie Streaming Platform using MERN,It has all the functionalities like Netflix" cvisit="https://www.amazon.in/" ccode="https://www.amazon.in/" />
-                <button className={styles.mybtn}>Show All Projects</button>
+
+                <Card1_left cimg={projectimg1} cname="Ecommerce Website" cdescription="I Built an Ecommerce Platform using MERN,It has all the functionalities like Amazon" cvisit="https://www.amazon.in/" ccode="https://www.amazon.in/" />
+
+                <Card2_right cimg={projectimg2} cname="Movie Streaming Platform" cdescription="I Built a Movie Streaming Platform using MERN,It has all the functionalities like Netflix" cvisit="https://www.amazon.in/" ccode="https://www.amazon.in/" />
+
+                <Card1_left cimg={projectimg1} cname="Ecommerce Website" cdescription="I Built an Ecommerce Platform using MERN,It has all the functionalities like amazon" cvisit="/https://www.amazon.in/" ccode="https://www.amazon.in/" />
+
+                <Card2_right cimg={projectimg2} cname="Movie Streaming Platform" cdescription="I Built a Movie Streaming Platform using MERN,It has all the functionalities like Netflix" cvisit="https://www.amazon.in/" ccode="https://www.amazon.in/" />
+
+                {/* <button className={styles.mybtn}>Show All Projects</button> */}
             </div>
             <Homesection5 />
         </div>
