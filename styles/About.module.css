@@ -1,0 +1,161 @@
+.aboutoutermost {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head1 {
+    font-family: 'Poppins';
+    font-size: 60px;
+}
+
+.para1 {
+    /* text-align: center; */
+    font-size: 20px;
+    width: 80%;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.imgcont {
+    width: 500px;
+}
+
+
+
+.details {
+    padding: 0px 200px;
+}
+
+.detailsleft {
+    display: flex;
+    justify-content: left;
+    /* background-color: aqua; */
+}
+
+.detailsright {
+    display: flex;
+    justify-content: right;
+}
+
+
+.detailsinner {
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    width: 700px;
+    margin: 20px;
+}
+
+
+.detailsinner h1 {
+    font-family: 'Poppins';
+}
+
+.detailsinner p {
+    padding: 5px 0px;
+    font-size: 19px;
+    color: grey;
+}
+
+.detailsinner span {
+    font-weight: 700;
+    color: white;
+}
+
+
+.section1 button {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border: 2px solid white;
+    margin: 20px 0px;
+}
+
+.section1 button:hover {
+    background-color: white;
+    color: black;
+    transition: 2s all;
+}
+
+
+
+.head2 {
+    font-family: 'Poppins';
+}
+
+@media (max-width: 1200px) {
+    .details {
+        padding: 0px 0px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .para1 {
+        text-align: center;
+        font-size: 20px;
+        width: 90%;
+        color: grey;
+        margin-bottom: 30px;
+    }
+
+
+}
+
+@media (max-width: 750px) {
+
+    .detailsinner {
+        border: 2px solid grey;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 10px;
+        width: 400px;
+        margin: 10px;
+    }
+
+
+    .detailsinner h1 {
+        font-family: 'Poppins';
+    }
+
+    .detailsinner p {
+        padding: 5px 0px;
+        font-size: 16px;
+    }
+
+    .imgcont {
+        width: 90%;
+    }
+}
+
+@media (max-width:500px) {
+
+    .detailsleft,
+    .detailsright {
+        justify-content: center;
+    }
+
+    .detailsinner {
+        width: 95%;
+    }
+
+    .detailsinner p {
+        font-size: 15px;
+    }
+
+    .head2 {
+        text-align: center;
+        font-size: 30px;
+        margin: 10px 5px;
+    }
+}

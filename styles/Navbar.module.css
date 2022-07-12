@@ -11,7 +11,8 @@
 
 }
 
-.right {
+.right,
+.right1 {
     display: flex;
     width: 500px;
     justify-content: space-evenly;
@@ -23,7 +24,8 @@
     align-items: center;
 }
 
-.right button {
+.right button,
+.right1 button {
     background-color: black;
     color: white;
     font-weight: 700;
@@ -111,7 +113,27 @@
         display: none;
     }
 
+    .right1 {
+        /* display: none; */
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        z-index: +5;
+        width: 100px;
+        background-color: white;
+        height: 200px;
+    }
+
+    .right1 button {
+        background-color: white;
+        color: black;
+        border: none;
+    }
+
     .nav_toggler {
         display: flex;
     }
+
+
 }
