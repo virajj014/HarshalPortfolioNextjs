@@ -58,7 +58,7 @@ const about = () => {
 
             <div className={styles.section1}>
                 <h1 className={styles.head2}>To Know More about me</h1>
-                <button><a href='https://drive.google.com/file/d/1nv9wIxZRlN7I7xWFzGn7a4wW6xkCoWbn/view?usp=sharing'>Download Resume</a></button>
+                <button><a href='https://drive.google.com/file/d/1_Ozf6uA3LpzqPqTC8IIrQhCGWTmScIE_/view?usp=sharing'>Download Resume</a></button>
             </div>
         </div>
     )
